@@ -3,7 +3,7 @@
 
 import SwiftUI
 
-final class ToastView: View {
+public struct ToastView: View {
     
     var title: String
     var message: String
